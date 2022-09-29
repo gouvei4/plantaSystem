@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "userInterfaceStyle": "light",
+    "name": "PlantaSystem",
+    "slug": "PlantaSystem",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "The app accesses your photos to let you share them with your friends."
+          }
+        ]
+      ]
+    },
+    "android": {
+      "package": "br.com.afonsoplantas.app"
+    }
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "bundleIdentifier": "br.com.afonsoplantas.app",
+    "buildNumber": "1",
+    "supportsTablet": true,
+    "infoPlist": {
+      "UIUserInterfaceStyle": "Light"
+    }
+  },
+  "android": {
+    "package": "br.com.afonsoplantas.app",
+    "versionCode": 1,
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/images/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+    }
+  },
+  "web": {
+    "favicon": "./assets/images/favicon.png"
+  }
+}
